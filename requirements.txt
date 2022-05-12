@@ -1,3 +1,5 @@
-Pyrogram
+pyrogram
 tgcrypto
 aria2p
+pip3
+
