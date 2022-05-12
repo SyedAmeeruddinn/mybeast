@@ -1,5 +1,5 @@
 pyrogram
 tgcrypto
 aria2p
-pip3
+pip
 
