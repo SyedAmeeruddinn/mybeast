@@ -1,9 +1,10 @@
 from os.path import join as os_path_join
 from pyrogram import errors
-from pyrogram import client
-from pyrogram import message
+from pyrogram.types import User
+from pyrogram.types import Client
+from pyrogram.types import Message
 from pyrogram.handlers import MessageHandler
-from pyrogram import  filters, CallbackQueryHandler
+from pyrogram.types import  Filter, CallbackQueryHandler
 from bot import CONFIG, COMMAND, LOCAL, LOGGER, STATUS
 from bot.handlers import *
 import asyncio
