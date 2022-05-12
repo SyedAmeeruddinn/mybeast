@@ -1,7 +1,7 @@
 from os.path import join as os_path_join
 from pyrogram import errors
 from pyrogram.types import User
-from pyrogram.types import Client
+from pyrogram import Client
 from pyrogram.types import Message
 from pyrogram.handlers import MessageHandler
 from pyrogram.types import  Filter, CallbackQueryHandler
