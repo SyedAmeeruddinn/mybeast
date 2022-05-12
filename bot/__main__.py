@@ -5,7 +5,7 @@ from pyrogram import Client
 from pyrogram.types import Message
 from pyrogram.handlers import MessageHandler
 from pyrogram import  filters
-from pyrogram.types import CallbackQueryHandler
+#from pyrogram.types import CallbackQueryHandler
 from bot import CONFIG, COMMAND, LOCAL, LOGGER, STATUS
 from bot.handlers import *
 import asyncio
